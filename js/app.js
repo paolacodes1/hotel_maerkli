@@ -132,13 +132,13 @@ class HotelApp {
             content.classList.remove('expanded');
             icon.textContent = '+';
             
-            // Add green background when collapsed
+            // Add light blue background when collapsed
             icon.style.backgroundColor = '#87CEEB';
         } else {
             content.classList.add('expanded');
             icon.textContent = '−';
             
-            // Keep green background when expanded
+            // Keep light blue background when expanded
             icon.style.backgroundColor = '#87CEEB';
         }
 

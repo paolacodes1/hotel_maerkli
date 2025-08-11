@@ -52,8 +52,8 @@ body {
 
 .lang-btn.active,
 .lang-btn:hover {
-    background-color: #87CEEB;
-    border-color: #87CEEB;
+    background-color: #87CEEB !important;
+    border-color: #87CEEB !important;
     color: #333;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .location-badge {
-    background-color: #87CEEB;
+    background-color: #87CEEB !important;
     color: #333;
     padding: 6px 16px;
     border-radius: 20px;
@@ -93,6 +93,7 @@ body {
 /* Main Content */
 .main-content {
     padding: 0 20px 100px;
+    background-color: #e5e5e5;
 }
 
 /* Sections */
@@ -142,7 +143,7 @@ body {
 .accordion-icon {
     width: 24px;
     height: 24px;
-    background-color: #87CEEB;
+    background-color: #87CEEB !important;
     border-radius: 4px;
     display: flex;
     align-items: center;
