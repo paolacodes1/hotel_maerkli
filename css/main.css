@@ -58,13 +58,13 @@ body {
 }
 
 .hotel-logo {
-    margin: 20px 0 5px;
+    margin: 20px 0 2.5px;
 }
 
 .logo-image {
-    height: 120px;
+    height: 168px;
     width: auto;
-    margin-bottom: 5px;
+    margin-bottom: 2.5px;
     object-fit: contain;
 }
 
