@@ -237,18 +237,106 @@ body {
 }
 
 /* Breakfast Styles */
-.breakfast-info {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.breakfast-photo {
     margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-.breakfast-info .icon {
+.breakfast-photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.schedule-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.schedule-section:last-of-type {
+    border-bottom: none;
+}
+
+.schedule-section h4 {
+    font-size: 12px;
+    color: #666;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.schedule-times {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.time-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.time-icon {
+    margin-bottom: 8px;
+}
+
+.time-item p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.time-item .time {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+.optional-services {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.optional-services h4 {
+    font-size: 12px;
+    color: #666;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+}
+
+.service-details p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.service-details .price {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
 }
 
 .coffee-icon {
@@ -442,6 +530,9 @@ body {
 }
 
 .attraction-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     padding: 15px;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -456,6 +547,7 @@ body {
 .attraction-item p {
     color: #666;
     font-size: 14px;
+    margin: 0;
 }
 
 /* Business Info */

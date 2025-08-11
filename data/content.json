@@ -28,8 +28,8 @@
     "breakfast_included": "Café da manhã incluído",
     "breakfast_description": "Buffet com mais de 60 variedades",
     "breakfast_hours": "HORÁRIOS",
-    "weekdays": "Segunda a sexta:",
-    "weekends": "Finais de semana:",
+    "weekdays": "SEGUNDA A SEXTA",
+    "weekends": "FINAIS DE SEMANA E FERIADO",
     "breakfast_highlights": "DESTAQUES",
     "breakfast_items": [
       "Buffet com mais de 60 variedades",
@@ -38,6 +38,12 @@
       "Ovos mexidos",
       "Quatro tipos de frutas frescas"
     ],
+    
+    "optional_services": "OPCIONAIS",
+    "room_service": "Café da manhã no quarto:",
+    "room_service_price": "80,00",
+    "non_guest_service": "Café da manhã para não hóspede",
+    "non_guest_price": "45,00",
     
     "nearby_restaurants": "Restaurantes próximos",
     "walking_5min": "5 minutos a pé",
@@ -104,8 +110,8 @@
     "breakfast_included": "Breakfast included",
     "breakfast_description": "Buffet with over 60 varieties",
     "breakfast_hours": "HOURS",
-    "weekdays": "Monday to Friday:",
-    "weekends": "Weekends:",
+    "weekdays": "MONDAY TO FRIDAY",
+    "weekends": "WEEKENDS & HOLIDAYS",
     "breakfast_highlights": "HIGHLIGHTS",
     "breakfast_items": [
       "Buffet with over 60 varieties",
@@ -114,6 +120,12 @@
       "Scrambled eggs",
       "Four types of fresh fruits"
     ],
+    
+    "optional_services": "OPTIONAL",
+    "room_service": "Breakfast in room:",
+    "room_service_price": "80,00",
+    "non_guest_service": "Breakfast for non-guest",
+    "non_guest_price": "45,00",
     
     "nearby_restaurants": "Nearby restaurants",
     "walking_5min": "5-minute walk",
@@ -180,8 +192,8 @@
     "breakfast_included": "Desayuno incluido",
     "breakfast_description": "Buffet con más de 60 variedades",
     "breakfast_hours": "HORARIOS", 
-    "weekdays": "Lunes a viernes:",
-    "weekends": "Fines de semana:",
+    "weekdays": "LUNES A VIERNES",
+    "weekends": "FINES DE SEMANA Y FERIADOS",
     "breakfast_highlights": "DESTACADOS",
     "breakfast_items": [
       "Buffet con más de 60 variedades",
@@ -190,6 +202,12 @@
       "Huevos revueltos", 
       "Cuatro tipos de frutas frescas"
     ],
+    
+    "optional_services": "OPCIONALES",
+    "room_service": "Desayuno en habitación:",
+    "room_service_price": "80,00",
+    "non_guest_service": "Desayuno para no huésped",
+    "non_guest_price": "45,00",
     
     "nearby_restaurants": "Restaurantes cercanos",
     "walking_5min": "5 minutos a pie",

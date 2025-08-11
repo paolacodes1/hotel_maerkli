@@ -169,44 +169,106 @@
                     </button>
                     <div class="accordion-content" id="breakfast">
                         <div class="content-inner">
-                            <div class="breakfast-info">
-                                <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="coffee-icon">
-                                        <path d="M10 2v2"/>
-                                        <path d="M14 2v2"/>
-                                        <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/>
-                                        <path d="M6 2v2"/>
-                                    </svg>
+                            <!-- Breakfast Photo -->
+                            <div class="breakfast-photo">
+                                <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=500&h=200&fit=crop&crop=center" alt="Café da manhã" />
+                            </div>
+                            
+                            <!-- Weekdays Schedule -->
+                            <div class="schedule-section">
+                                <h4 data-key="weekdays">SEGUNDA A SEXTA</h4>
+                                <div class="schedule-times">
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p>Início:</p>
+                                            <p class="time">06:30</p>
+                                        </div>
+                                    </div>
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p>Encerramento:</p>
+                                            <p class="time">10:00</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p data-key="breakfast_included">Café da manhã incluído</p>
-                                    <p data-key="breakfast_description">Buffet com mais de 60 variedades</p>
+                            </div>
+
+                            <!-- Weekends Schedule -->
+                            <div class="schedule-section">
+                                <h4 data-key="weekends">FINAIS DE SEMANA E FERIADO</h4>
+                                <div class="schedule-times">
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p>Início:</p>
+                                            <p class="time">06:30</p>
+                                        </div>
+                                    </div>
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p>Encerramento:</p>
+                                            <p class="time">10:00</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             
-                            <div class="schedule-info">
-                                <h4 data-key="breakfast_hours">HORÁRIOS</h4>
-                                <div class="time-grid">
-                                    <div>
-                                        <p data-key="weekdays">Segunda a sexta:</p>
-                                        <p class="time">06:30 - 10:00</p>
+                            <!-- Optional Services -->
+                            <div class="optional-services">
+                                <h4 data-key="optional_services">OPCIONAIS</h4>
+                                
+                                <div class="service-item">
+                                    <div class="service-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="coffee-icon">
+                                            <path d="M10 2v2"/>
+                                            <path d="M14 2v2"/>
+                                            <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/>
+                                            <path d="M6 2v2"/>
+                                        </svg>
                                     </div>
-                                    <div>
-                                        <p data-key="weekends">Finais de semana:</p>
-                                        <p class="time">06:30 - 10:00</p>
+                                    <div class="service-details">
+                                        <p data-key="room_service">Café da manhã no quarto:</p>
+                                        <p class="price" data-key="room_service_price">80,00</p>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="breakfast-highlights">
-                                <h4 data-key="breakfast_highlights">DESTAQUES</h4>
-                                <ul data-key="breakfast_items">
-                                    <li>Buffet com mais de 60 variedades</li>
-                                    <li>Granola, linhaça e chia</li>
-                                    <li>Variedade de bolos, cucas e pães</li>
-                                    <li>Ovos mexidos</li>
-                                    <li>Quatro tipos de frutas frescas</li>
-                                </ul>
+                                
+                                <div class="service-item">
+                                    <div class="service-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="coffee-icon">
+                                            <path d="M10 2v2"/>
+                                            <path d="M14 2v2"/>
+                                            <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/>
+                                            <path d="M6 2v2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="service-details">
+                                        <p data-key="non_guest_service">Café da manhã para não hóspede</p>
+                                        <p class="price" data-key="non_guest_price">45,00</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -228,26 +290,12 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <div class="restaurant-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
-                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
-                                            <circle cx="12" cy="10" r="3"/>
-                                        </svg>
-                                    </div>
-                                    <div>
                                         <h4>Restaurante Quick</h4>
                                         <p>1 minuto a pé</p>
                                     </div>
                                 </a>
                                 <a href="https://maps.app.goo.gl/zePWFdRqxZeB54LTA" target="_blank" class="restaurant-item">
                                     <div class="restaurant-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
-                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
-                                            <circle cx="12" cy="10" r="3"/>
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <div class="restaurant-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
                                             <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
                                             <circle cx="12" cy="10" r="3"/>
@@ -378,20 +426,52 @@
                         <div class="content-inner">
                             <div class="attraction-list">
                                 <div class="attraction-item">
-                                    <h4>Catedral Angelopolitana</h4>
-                                    <p data-key="walking_4min">4 minutos a pé</p>
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Catedral Angelopolitana</h4>
+                                        <p data-key="walking_4min">4 minutos a pé</p>
+                                    </div>
                                 </div>
                                 <div class="attraction-item">
-                                    <h4>Teatro Municipal Antônio Sepp</h4>
-                                    <p data-key="walking_4min">4 minutos a pé</p>
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Teatro Municipal Antônio Sepp</h4>
+                                        <p data-key="walking_4min">4 minutos a pé</p>
+                                    </div>
                                 </div>
                                 <div class="attraction-item">
-                                    <h4>Memorial Coluna Prestes</h4>
-                                    <p data-key="walking_5min">5 minutos a pé</p>
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Memorial Coluna Prestes</h4>
+                                        <p data-key="walking_5min">5 minutos a pé</p>
+                                    </div>
                                 </div>
                                 <div class="attraction-item">
-                                    <h4>Museu Municipal Dr. José Olavo Machado</h4>
-                                    <p data-key="walking_10min">10 minutos a pé</p>
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Museu Municipal Dr. José Olavo Machado</h4>
+                                        <p data-key="walking_10min">10 minutos a pé</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
