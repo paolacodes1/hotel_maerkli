@@ -21,9 +21,7 @@
     "wifi_coverage": "Disponível em todas as áreas do hotel",
     
     "parking": "Estacionamento",
-    "parking_title": "HOTEL COM ESTACIONAMENTO",
-    "parking_location": "Estacionamento privativo localizado atrás do hotel",
-    "parking_security": "Área segura e protegida",
+    "parking_description": "Atrás do hotel, área segura e protegida",
     
     "dining": "ALIMENTAÇÃO",
     "breakfast": "Café da manhã",
@@ -97,9 +95,7 @@
     "wifi_coverage": "Available throughout the entire hotel",
     
     "parking": "Parking",
-    "parking_title": "HOTEL WITH PARKING",
-    "parking_location": "Private parking located behind the hotel",
-    "parking_security": "Secure and protected area",
+    "parking_description": "Behind the hotel, secure and protected area",
     
     "dining": "DINING",
     "breakfast": "Breakfast",
@@ -173,9 +169,7 @@
     "wifi_coverage": "Disponible en todas las áreas del hotel",
     
     "parking": "Estacionamiento",
-    "parking_title": "HOTEL CON ESTACIONAMIENTO",
-    "parking_location": "Estacionamiento privado ubicado detrás del hotel",
-    "parking_security": "Área segura y protegida",
+    "parking_description": "Detrás del hotel, área segura y protegida",
     
     "dining": "ALIMENTACIÓN",
     "breakfast": "Desayuno",

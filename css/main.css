@@ -295,9 +295,20 @@ body {
 }
 
 .restaurant-item {
+    display: block;
     padding: 15px;
     background-color: #f9f9f9;
     border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    transition: background-color 0.2s, transform 0.2s;
+    cursor: pointer;
+}
+
+.restaurant-item:hover {
+    background-color: #e1f4fd;
+    transform: translateY(-2px);
 }
 
 .restaurant-item h4 {
@@ -309,6 +320,15 @@ body {
 .restaurant-item p {
     color: #666;
     font-size: 14px;
+    margin: 0;
+}
+
+.maps-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+    color: #87CEEB;
 }
 
 /* Channel List */
@@ -357,6 +377,21 @@ body {
 
 .social-link:hover {
     background-color: #e1f4fd;
+}
+
+.social-icon {
+    font-size: 20px;
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+}
+
+.instagram-icon {
+    color: #E1306C;
+}
+
+.facebook-icon {
+    color: #1877F2;
 }
 
 /* Contact Info */
