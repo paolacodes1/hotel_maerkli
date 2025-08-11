@@ -219,18 +219,8 @@ class HotelApp {
     }
 }
 
-// Service Worker registration for offline functionality
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('sw.js')
-            .then(registration => {
-                console.log('SW registered: ', registration);
-            })
-            .catch(registrationError => {
-                console.log('SW registration failed: ', registrationError);
-            });
-    });
-}
+// Service Worker removed for immediate updates
+// Offline functionality disabled to ensure fresh content delivery
 
 // Initialize app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
