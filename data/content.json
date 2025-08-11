@@ -1,7 +1,7 @@
 {
   "pt": {
     "hotel_name": "Hotel Maerkli",
-    "location": "📍 Santo Ângelo",
+    "location": "Santo Ângelo",
     "welcome": "Seja muito bem-vindo!",
     "private": "Privado",
     
@@ -25,6 +25,8 @@
     
     "dining": "ALIMENTAÇÃO",
     "breakfast": "Café da manhã",
+    "breakfast_included": "Café da manhã incluído",
+    "breakfast_description": "Buffet com mais de 60 variedades",
     "breakfast_hours": "HORÁRIOS",
     "weekdays": "Segunda a sexta:",
     "weekends": "Finais de semana:",
@@ -75,7 +77,7 @@
   
   "en": {
     "hotel_name": "Hotel Maerkli",
-    "location": "📍 Santo Ângelo",
+    "location": "Santo Ângelo",
     "welcome": "Welcome!",
     "private": "Private",
     
@@ -99,6 +101,8 @@
     
     "dining": "DINING",
     "breakfast": "Breakfast",
+    "breakfast_included": "Breakfast included",
+    "breakfast_description": "Buffet with over 60 varieties",
     "breakfast_hours": "HOURS",
     "weekdays": "Monday to Friday:",
     "weekends": "Weekends:",
@@ -149,7 +153,7 @@
   
   "es": {
     "hotel_name": "Hotel Maerkli",
-    "location": "📍 Santo Ângelo",
+    "location": "Santo Ângelo",
     "welcome": "¡Bienvenido!",
     "private": "Privado",
     
@@ -173,6 +177,8 @@
     
     "dining": "ALIMENTACIÓN",
     "breakfast": "Desayuno",
+    "breakfast_included": "Desayuno incluido",
+    "breakfast_description": "Buffet con más de 60 variedades",
     "breakfast_hours": "HORARIOS", 
     "weekdays": "Lunes a viernes:",
     "weekends": "Fines de semana:",

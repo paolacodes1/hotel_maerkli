@@ -76,12 +76,15 @@ body {
 .location-badge {
     background-color: #194284 !important;
     color: #fff;
-    padding: 6px 16px;
+    padding: 6px 12px;
     border-radius: 20px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 20px;
+    max-width: fit-content;
 }
 
 .welcome-message {
@@ -109,13 +112,13 @@ body {
     letter-spacing: 0.5px;
     margin-bottom: 15px;
     padding-bottom: 8px;
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 /* Accordion */
 .accordion-item {
     margin-bottom: 15px;
-    border: 1px solid #f4f4f4;
+    border: 1px solid #e5e5e5;
     border-radius: 12px;
     overflow: hidden;
     background-color: #fff;
@@ -219,7 +222,7 @@ body {
 .parking-info,
 .policy-info {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
     margin-bottom: 15px;
 }
@@ -227,30 +230,29 @@ body {
 .wifi-info .icon,
 .parking-info .icon,
 .policy-info .icon {
-    font-size: 20px;
-    margin-top: 2px;
-}
-
-/* Breakfast Styles */
-.breakfast-image {
-    margin-bottom: 20px;
-}
-
-.placeholder-image {
-    height: 200px;
-    background: linear-gradient(135deg, #f5f5f5 0%, #f4f4f4 100%);
-    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 36px;
-    color: #666;
+    flex-shrink: 0;
+}
+
+/* Breakfast Styles */
+.breakfast-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.breakfast-info .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .coffee-icon {
     color: #194284;
-    width: 64px;
-    height: 64px;
 }
 
 /* SVG Icon Styles */
@@ -261,12 +263,6 @@ body {
 .map-pin-small,
 .tv-icon {
     color: #194284;
-}
-
-.location-badge {
-    display: flex;
-    align-items: center;
-    gap: 6px;
 }
 
 .maps-icon {
@@ -425,6 +421,10 @@ body {
     gap: 12px;
 }
 
+.contact-item svg {
+    flex-shrink: 0;
+}
+
 .contact-item a {
     color: #333;
     text-decoration: none;
@@ -481,6 +481,10 @@ body {
     padding: 12px 15px;
     background-color: #f9f9f9;
     border-radius: 8px;
+}
+
+.room-item svg {
+    flex-shrink: 0;
 }
 
 /* Review Info */
