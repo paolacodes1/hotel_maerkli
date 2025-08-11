@@ -111,7 +111,7 @@ class HotelApp {
             // All sections start closed
             content.classList.remove('expanded');
             icon.textContent = '+';
-            icon.style.backgroundColor = '#87CEEB';
+            icon.style.backgroundColor = '#194284';
         });
     }
 
@@ -127,13 +127,13 @@ class HotelApp {
             icon.textContent = '+';
             
             // Add light blue background when collapsed
-            icon.style.backgroundColor = '#87CEEB';
+            icon.style.backgroundColor = '#194284';
         } else {
             content.classList.add('expanded');
             icon.textContent = '−';
             
             // Keep light blue background when expanded
-            icon.style.backgroundColor = '#87CEEB';
+            icon.style.backgroundColor = '#194284';
         }
 
         // Smooth scroll to header if expanding
