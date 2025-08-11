@@ -219,8 +219,18 @@ class HotelApp {
     }
 }
 
-// Service Worker removed for immediate updates
-// Offline functionality disabled to ensure fresh content delivery
+// Register cache-clearing service worker to fix caching issues
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+            .then(registration => {
+                console.log('Cache-clearing SW registered:', registration);
+            })
+            .catch(error => {
+                console.log('SW registration failed:', error);
+            });
+    });
+}
 
 // Initialize app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
