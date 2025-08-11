@@ -43,7 +43,7 @@
     "room_service": "Café da manhã no quarto:",
     "room_service_price": "R$ 80,00",
     "non_guest_service": "Café da manhã para não hóspede",
-    "non_guest_price": "R$ 45,00",
+    "non_guest_price": "R$ 50,00",
     
     "start_time": "Início:",
     "end_time": "Encerramento:",
@@ -131,7 +131,7 @@
     "room_service": "Breakfast in room:",
     "room_service_price": "R$ 80,00",
     "non_guest_service": "Breakfast for non-guest",
-    "non_guest_price": "R$ 45,00",
+    "non_guest_price": "R$ 50,00",
     
     "start_time": "Start:",
     "end_time": "End:",
@@ -219,7 +219,7 @@
     "room_service": "Desayuno en habitación:",
     "room_service_price": "R$ 80,00",
     "non_guest_service": "Desayuno para no huésped",
-    "non_guest_price": "R$ 45,00",
+    "non_guest_price": "R$ 50,00",
     
     "start_time": "Inicio:",
     "end_time": "Final:",
