@@ -88,6 +88,7 @@ body {
     font-size: 18px;
     color: #666;
     font-weight: 500;
+    margin-bottom: 40px;
 }
 
 /* Main Content */
@@ -164,7 +165,7 @@ body {
 }
 
 .content-inner {
-    padding: 0 20px 20px;
+    padding: 15px 20px 20px;
 }
 
 /* Content Styles */

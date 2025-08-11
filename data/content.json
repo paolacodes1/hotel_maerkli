@@ -1,14 +1,14 @@
 {
   "pt": {
     "hotel_name": "Hotel Maerkli",
-    "location": "CENTRO",
+    "location": "📍 Santo Ângelo",
     "welcome": "Seja muito bem-vindo!",
     "private": "Privado",
     
     "general_info": "INFORMAÇÕES GERAIS",
     "checkin": "Check-in",
-    "checkin_from": "Check-in a partir de:",
-    "checkout_until": "Check-out até:",
+    "checkin_time": "Check-in:",
+    "checkout_time": "Check-out:",
     "early_checkin": "CHECK-IN ANTECIPADO",
     "early_checkin_title": "Early check-in",
     "early_checkin_desc": "Consulte valores e disponibilidade",
@@ -77,14 +77,14 @@
   
   "en": {
     "hotel_name": "Hotel Maerkli",
-    "location": "DOWNTOWN",
+    "location": "📍 Santo Ângelo",
     "welcome": "Welcome!",
     "private": "Private",
     
     "general_info": "GENERAL INFORMATION",
     "checkin": "Check-in",
-    "checkin_from": "Check-in from:",
-    "checkout_until": "Check-out until:",
+    "checkin_time": "Check-in:",
+    "checkout_time": "Check-out:",
     "early_checkin": "EARLY CHECK-IN",
     "early_checkin_title": "Early check-in",
     "early_checkin_desc": "Please inquire about rates and availability",
@@ -153,14 +153,14 @@
   
   "es": {
     "hotel_name": "Hotel Maerkli",
-    "location": "CENTRO",
+    "location": "📍 Santo Ângelo",
     "welcome": "¡Bienvenido!",
     "private": "Privado",
     
     "general_info": "INFORMACIÓN GENERAL",
     "checkin": "Check-in",
-    "checkin_from": "Check-in desde:",
-    "checkout_until": "Check-out hasta:",
+    "checkin_time": "Check-in:",
+    "checkout_time": "Check-out:",
     "early_checkin": "CHECK-IN TEMPRANO",
     "early_checkin_title": "Check-in temprano",
     "early_checkin_desc": "Consulte precios y disponibilidad",

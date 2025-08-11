@@ -102,22 +102,16 @@ class HotelApp {
     }
 
     initializeAccordions() {
-        // Set initial states - checkin, wifi, parking expanded by default
-        const defaultExpanded = ['checkin', 'wifi', 'parking'];
-        
+        // Set initial states - all sections closed by default
         document.querySelectorAll('.accordion-item').forEach(item => {
             const header = item.querySelector('.accordion-header');
             const content = item.querySelector('.accordion-content');
             const icon = header.querySelector('.accordion-icon');
-            const section = header.dataset.section;
 
-            if (defaultExpanded.includes(section)) {
-                content.classList.add('expanded');
-                icon.textContent = '−';
-            } else {
-                content.classList.remove('expanded');
-                icon.textContent = '+';
-            }
+            // All sections start closed
+            content.classList.remove('expanded');
+            icon.textContent = '+';
+            icon.style.backgroundColor = '#87CEEB';
         });
     }
 
