@@ -41,13 +41,19 @@
     
     "optional_services": "OPCIONAIS",
     "room_service": "Café da manhã no quarto:",
-    "room_service_price": "80,00",
+    "room_service_price": "R$ 80,00",
     "non_guest_service": "Café da manhã para não hóspede",
-    "non_guest_price": "45,00",
+    "non_guest_price": "R$ 45,00",
+    
+    "start_time": "Início:",
+    "end_time": "Encerramento:",
     
     "nearby_restaurants": "Restaurantes próximos",
-    "walking_5min": "5 minutos a pé",
-    "walking_4min": "4 minutos a pé", 
+    "walking_1min": "1 minuto a pé",
+    "walking_4min": "4 minutos a pé",
+    "walking_5min": "5 minutos a pé", 
+    "walking_8min": "8 minutos a pé",
+    "walking_9min": "9 minutos a pé",
     "walking_10min": "10 minutos a pé",
     "walking_distance": "Distância caminhável",
     "arena_hours": "Restaurante/Bowling/Pub • 11h-14h e 17h-2h",
@@ -72,7 +78,7 @@
     
     "pet_accommodation": "HOSPEDAGEM DE ANIMAIS",
     "pet_policy": "Política de pets",
-    "no_pets": "Não é permitido animais de estimação",
+    "no_pets": "Amamos os animais de estimação, mas infelizmente não podemos recebê-los no hotel.",
     
     "rate_services": "AVALIE OS SERVIÇOS",
     "rate_hotel": "Avalie o hotel",
@@ -123,13 +129,19 @@
     
     "optional_services": "OPTIONAL",
     "room_service": "Breakfast in room:",
-    "room_service_price": "80,00",
+    "room_service_price": "R$ 80,00",
     "non_guest_service": "Breakfast for non-guest",
-    "non_guest_price": "45,00",
+    "non_guest_price": "R$ 45,00",
+    
+    "start_time": "Start:",
+    "end_time": "End:",
     
     "nearby_restaurants": "Nearby restaurants",
-    "walking_5min": "5-minute walk",
+    "walking_1min": "1-minute walk",
     "walking_4min": "4-minute walk",
+    "walking_5min": "5-minute walk",
+    "walking_8min": "8-minute walk", 
+    "walking_9min": "9-minute walk",
     "walking_10min": "10-minute walk", 
     "walking_distance": "Walking distance",
     "arena_hours": "Restaurant/Bowling/Pub • 11am-2pm and 5pm-2am",
@@ -154,7 +166,7 @@
     
     "pet_accommodation": "PET ACCOMMODATION",
     "pet_policy": "Pet policy", 
-    "no_pets": "Pets are not allowed",
+    "no_pets": "We love pets, but unfortunately we cannot accommodate them at the hotel.",
     
     "rate_services": "RATE OUR SERVICES",
     "rate_hotel": "Rate the hotel",
@@ -205,13 +217,19 @@
     
     "optional_services": "OPCIONALES",
     "room_service": "Desayuno en habitación:",
-    "room_service_price": "80,00",
+    "room_service_price": "R$ 80,00",
     "non_guest_service": "Desayuno para no huésped",
-    "non_guest_price": "45,00",
+    "non_guest_price": "R$ 45,00",
+    
+    "start_time": "Inicio:",
+    "end_time": "Final:",
     
     "nearby_restaurants": "Restaurantes cercanos",
-    "walking_5min": "5 minutos a pie",
+    "walking_1min": "1 minuto a pie",
     "walking_4min": "4 minutos a pie",
+    "walking_5min": "5 minutos a pie",
+    "walking_8min": "8 minutos a pie",
+    "walking_9min": "9 minutos a pie", 
     "walking_10min": "10 minutos a pie",
     "walking_distance": "Distancia caminable",
     "arena_hours": "Restaurante/Bowling/Pub • 11h-14h y 17h-2h",
@@ -236,7 +254,7 @@
     
     "pet_accommodation": "ALOJAMIENTO DE MASCOTAS",
     "pet_policy": "Política de mascotas",
-    "no_pets": "No se permiten mascotas",
+    "no_pets": "Amamos las mascotas, pero desafortunadamente no podemos recibirlas en el hotel.",
     
     "rate_services": "CALIFIQUE LOS SERVICIOS", 
     "rate_hotel": "Califique el hotel",
