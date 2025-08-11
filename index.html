@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Maerkli - Informações</title>
-    <link rel="stylesheet" href="css/main.css?v=5">
+    <link rel="stylesheet" href="css/main.css?v=6">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -24,7 +24,13 @@
             </div>
             
             <h1 class="hotel-name" data-key="hotel_name">Hotel Maerkli</h1>
-            <div class="location-badge" data-key="location">📍 Santo Ângelo</div>
+            <div class="location-badge" data-key="location">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-icon">
+                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                    <circle cx="12" cy="10" r="3"/>
+                </svg>
+                Santo Ângelo
+            </div>
             
             <p class="welcome-message" data-key="welcome">Seja muito bem-vindo!</p>
         </header>
@@ -44,14 +50,24 @@
                         <div class="content-inner">
                             <div class="info-grid">
                                 <div class="time-info">
-                                    <div class="icon">🕐</div>
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                            <path d="M12 6v6l4 2"/>
+                                            <circle cx="12" cy="12" r="10"/>
+                                        </svg>
+                                    </div>
                                     <div>
                                         <p data-key="checkin_time">Check-in:</p>
                                         <p class="time">12:00</p>
                                     </div>
                                 </div>
                                 <div class="time-info">
-                                    <div class="icon">🕐</div>
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                            <path d="M12 6v6l4 2"/>
+                                            <circle cx="12" cy="12" r="10"/>
+                                        </svg>
+                                    </div>
                                     <div>
                                         <p data-key="checkout_time">Check-out:</p>
                                         <p class="time">12:00</p>
@@ -62,7 +78,12 @@
                             <div class="additional-info">
                                 <h4 data-key="early_checkin">CHECK-IN ANTECIPADO</h4>
                                 <div class="service-info">
-                                    <div class="icon">🕐</div>
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                            <path d="M12 6v6l4 2"/>
+                                            <circle cx="12" cy="12" r="10"/>
+                                        </svg>
+                                    </div>
                                     <div>
                                         <p data-key="early_checkin_title">Early check-in</p>
                                         <p data-key="early_checkin_desc">Consulte valores e disponibilidade</p>
@@ -71,7 +92,12 @@
                                 
                                 <h4 data-key="late_checkout">CHECK-OUT ATRASADO</h4>
                                 <div class="service-info">
-                                    <div class="icon">🕐</div>
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                            <path d="M12 6v6l4 2"/>
+                                            <circle cx="12" cy="12" r="10"/>
+                                        </svg>
+                                    </div>
                                     <div>
                                         <p data-key="late_checkout_title">Late check-out</p>
                                         <p data-key="late_checkout_desc">Consulte valores e disponibilidade</p>
@@ -90,7 +116,14 @@
                     <div class="accordion-content" id="wifi">
                         <div class="content-inner">
                             <div class="wifi-info">
-                                <div class="icon">📶</div>
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="wifi-icon">
+                                        <path d="M12 20h.01"/>
+                                        <path d="M2 8.82a15 15 0 0 1 20 0"/>
+                                        <path d="M5 12.859a10 10 0 0 1 14 0"/>
+                                        <path d="M8.5 16.429a5 5 0 0 1 7 0"/>
+                                    </svg>
+                                </div>
                                 <div>
                                     <p data-key="wifi_free">WiFi GRATUITO</p>
                                     <p data-key="wifi_coverage">Disponível em todas as áreas do hotel</p>
@@ -108,7 +141,14 @@
                     <div class="accordion-content" id="parking">
                         <div class="content-inner">
                             <div class="parking-info">
-                                <div class="icon">🚗</div>
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="car-icon">
+                                        <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/>
+                                        <circle cx="7" cy="17" r="2"/>
+                                        <path d="M9 17h6"/>
+                                        <circle cx="17" cy="17" r="2"/>
+                                    </svg>
+                                </div>
                                 <div>
                                     <p data-key="parking_description">Atrás do hotel, área segura e protegida</p>
                                 </div>
@@ -130,7 +170,14 @@
                     <div class="accordion-content" id="breakfast">
                         <div class="content-inner">
                             <div class="breakfast-image">
-                                <div class="placeholder-image">🍞 🥐 🧈</div>
+                                <div class="placeholder-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="coffee-icon">
+                                        <path d="M10 2v2"/>
+                                        <path d="M14 2v2"/>
+                                        <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/>
+                                        <path d="M6 2v2"/>
+                                    </svg>
+                                </div>
                             </div>
                             
                             <div class="schedule-info">
@@ -172,32 +219,62 @@
                                 <a href="https://maps.app.goo.gl/BRmY9c2cWxy4r58d6" target="_blank" class="restaurant-item">
                                     <h4>Restaurante Quick</h4>
                                     <p>1 minuto a pé</p>
-                                    <span class="maps-icon">📍</span>
+                                    <span class="maps-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </span>
                                 </a>
                                 <a href="https://maps.app.goo.gl/zePWFdRqxZeB54LTA" target="_blank" class="restaurant-item">
                                     <h4>Restaurante Rolla Chopp</h4>
                                     <p>4 minutos a pé</p>
-                                    <span class="maps-icon">📍</span>
+                                    <span class="maps-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </span>
                                 </a>
                                 <a href="https://maps.app.goo.gl/q86SVjBfz9pTDFVMA" target="_blank" class="restaurant-item">
                                     <h4>Primu's Santo Ângelo</h4>
                                     <p>8 minutos a pé</p>
-                                    <span class="maps-icon">📍</span>
+                                    <span class="maps-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </span>
                                 </a>
                                 <a href="https://maps.app.goo.gl/WDsx7uquwRLtdLdd6" target="_blank" class="restaurant-item">
                                     <h4>Al-Manara</h4>
                                     <p>8 minutos a pé</p>
-                                    <span class="maps-icon">📍</span>
+                                    <span class="maps-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </span>
                                 </a>
                                 <a href="https://maps.app.goo.gl/wbPFD3Hhexa4mkL66" target="_blank" class="restaurant-item">
                                     <h4>Casa Real Restaurante</h4>
                                     <p>9 minutos a pé</p>
-                                    <span class="maps-icon">📍</span>
+                                    <span class="maps-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </span>
                                 </a>
                                 <a href="https://maps.app.goo.gl/VvGrZZB2aAq1NYHo8" target="_blank" class="restaurant-item">
                                     <h4>Bodeguita Do Chico</h4>
                                     <p>9 minutos a pé</p>
-                                    <span class="maps-icon">📍</span>
+                                    <span class="maps-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -218,22 +295,42 @@
                         <div class="content-inner">
                             <div class="channel-list">
                                 <div class="channel-item">
-                                    <span class="channel-logo">📺</span>
+                                    <span class="channel-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tv-icon">
+                                            <path d="m17 2-5 5-5-5"/>
+                                            <rect width="20" height="15" x="2" y="7" rx="2"/>
+                                        </svg>
+                                    </span>
                                     <span>Globo</span>
                                     <span class="channel-number">4.1</span>
                                 </div>
                                 <div class="channel-item">
-                                    <span class="channel-logo">📺</span>
+                                    <span class="channel-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tv-icon">
+                                            <path d="m17 2-5 5-5-5"/>
+                                            <rect width="20" height="15" x="2" y="7" rx="2"/>
+                                        </svg>
+                                    </span>
                                     <span>SBT</span>
                                     <span class="channel-number">5.1</span>
                                 </div>
                                 <div class="channel-item">
-                                    <span class="channel-logo">📺</span>
+                                    <span class="channel-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tv-icon">
+                                            <path d="m17 2-5 5-5-5"/>
+                                            <rect width="20" height="15" x="2" y="7" rx="2"/>
+                                        </svg>
+                                    </span>
                                     <span>Record</span>
                                     <span class="channel-number">7.1</span>
                                 </div>
                                 <div class="channel-item">
-                                    <span class="channel-logo">📺</span>
+                                    <span class="channel-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tv-icon">
+                                            <path d="m17 2-5 5-5-5"/>
+                                            <rect width="20" height="15" x="2" y="7" rx="2"/>
+                                        </svg>
+                                    </span>
                                     <span>Band</span>
                                     <span class="channel-number">9.1</span>
                                 </div>
@@ -270,10 +367,18 @@
                         <div class="content-inner">
                             <div class="social-links">
                                 <a href="https://instagram.com/maerklihotel" target="_blank" class="social-link">
-                                    <span class="social-icon instagram-icon">📸</span> Instagram: @maerklihotel
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="instagram-icon">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                                    </svg>
+                                    Instagram: @maerklihotel
                                 </a>
                                 <a href="https://facebook.com/hotelmaerkli" target="_blank" class="social-link">
-                                    <span class="social-icon facebook-icon">👥</span> Facebook: Hotel Maerkli
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="facebook-icon">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                    </svg>
+                                    Facebook: Hotel Maerkli
                                 </a>
                             </div>
                         </div>
@@ -289,15 +394,24 @@
                         <div class="content-inner">
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <span>📞</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="phone-icon">
+                                        <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/>
+                                    </svg>
                                     <a href="tel:+555533132127">+55 55 3313-2127</a>
                                 </div>
                                 <div class="contact-item">
-                                    <span>🌐</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="globe-icon">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                                        <path d="M2 12h20"/>
+                                    </svg>
                                     <a href="https://www.maerkli.com">www.maerkli.com</a>
                                 </div>
                                 <div class="contact-item">
-                                    <span>📍</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-contact">
+                                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
                                     <a href="https://maps.app.goo.gl/CB12h4WYWhrBaMLh7" target="_blank">Avenida Brasil, 1000 - Centro, Santo Ângelo, RS</a>
                                 </div>
                             </div>
@@ -350,13 +464,21 @@
                                 <h4 data-key="meeting_rooms">SALAS DE REUNIÃO</h4>
                                 <div class="room-info">
                                     <div class="room-item">
-                                        <span>🏢</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="presentation-icon">
+                                            <path d="M2 3h20"/>
+                                            <path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/>
+                                            <path d="m7 21 5-5 5 5"/>
+                                        </svg>
                                         <div>
                                             <p data-key="room_1">Sala 1: Até 30 pessoas</p>
                                         </div>
                                     </div>
                                     <div class="room-item">
-                                        <span>🏢</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="presentation-icon">
+                                            <path d="M2 3h20"/>
+                                            <path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/>
+                                            <path d="m7 21 5-5 5 5"/>
+                                        </svg>
                                         <div>
                                             <p data-key="room_2">Sala 2: Até 80 pessoas</p>
                                         </div>
@@ -381,7 +503,12 @@
                     <div class="accordion-content" id="pet-policy">
                         <div class="content-inner">
                             <div class="policy-info">
-                                <div class="icon">🚫</div>
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#194284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ban-icon">
+                                        <path d="M4.929 4.929 19.07 19.071"/>
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                </div>
                                 <p data-key="no_pets">Não é permitido animais de estimação</p>
                             </div>
                         </div>

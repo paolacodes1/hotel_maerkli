@@ -244,7 +244,35 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 36px;
-    color: #999;
+    color: #666;
+}
+
+.coffee-icon {
+    color: #194284;
+    width: 64px;
+    height: 64px;
+}
+
+/* SVG Icon Styles */
+.clock-icon,
+.wifi-icon,
+.car-icon,
+.map-pin-icon,
+.map-pin-small,
+.tv-icon {
+    color: #194284;
+}
+
+.location-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.maps-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .schedule-info h4,
@@ -379,19 +407,9 @@ body {
     background-color: #e1f4fd;
 }
 
-.social-icon {
-    font-size: 20px;
-    width: 24px;
-    display: inline-block;
-    text-align: center;
-}
-
-.instagram-icon {
-    color: #E1306C;
-}
-
+.instagram-icon,
 .facebook-icon {
-    color: #1877F2;
+    flex-shrink: 0;
 }
 
 /* Contact Info */
@@ -481,7 +499,7 @@ body {
 .review-link {
     display: inline-block;
     background-color: #194284;
-    color: #333;
+    color: #fff;
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
