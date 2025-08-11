@@ -87,6 +87,11 @@ body {
     max-width: fit-content;
 }
 
+.location-badge svg {
+    color: #fff !important;
+    stroke: #fff !important;
+}
+
 .welcome-message {
     font-size: 18px;
     color: #666;
