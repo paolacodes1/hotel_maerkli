@@ -319,13 +319,14 @@ body {
 }
 
 .restaurant-item {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 12px;
     padding: 15px;
     background-color: #f9f9f9;
     border-radius: 8px;
     text-decoration: none;
     color: inherit;
-    position: relative;
     transition: background-color 0.2s, transform 0.2s;
     cursor: pointer;
 }
@@ -333,6 +334,13 @@ body {
 .restaurant-item:hover {
     background-color: #e1f4fd;
     transform: translateY(-2px);
+}
+
+.restaurant-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .restaurant-item h4 {
@@ -345,14 +353,6 @@ body {
     color: #666;
     font-size: 14px;
     margin: 0;
-}
-
-.maps-icon {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 18px;
-    color: #194284;
 }
 
 /* Channel List */
