@@ -61,9 +61,11 @@ body {
     margin: 20px 0 10px;
 }
 
-.logo-icon {
-    font-size: 48px;
+.logo-image {
+    height: 60px;
+    width: auto;
     margin-bottom: 10px;
+    object-fit: contain;
 }
 
 .hotel-name {
