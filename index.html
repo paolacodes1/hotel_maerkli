@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Maerkli - Informações</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="language-toggle">
+                <button class="lang-btn active" data-lang="pt">PT</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
+            
+            <div class="hotel-logo">
+                <div class="logo-icon">🏨</div>
+            </div>
+            
+            <h1 class="hotel-name" data-key="hotel_name">Hotel Maerkli</h1>
+            <div class="location-badge" data-key="location">CENTRO</div>
+            
+            <p class="welcome-message" data-key="welcome">Seja muito bem-vindo!</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- General Information -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="general_info">INFORMAÇÕES GERAIS</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="checkin">
+                        <span data-key="checkin">Check-in</span>
+                        <span class="accordion-icon">−</span>
+                    </button>
+                    <div class="accordion-content expanded" id="checkin">
+                        <div class="content-inner">
+                            <div class="info-grid">
+                                <div class="time-info">
+                                    <div class="icon">🕐</div>
+                                    <div>
+                                        <p data-key="checkin_from">Check-in a partir de:</p>
+                                        <p class="time">12:00</p>
+                                    </div>
+                                </div>
+                                <div class="time-info">
+                                    <div class="icon">🕐</div>
+                                    <div>
+                                        <p data-key="checkout_until">Check-out até:</p>
+                                        <p class="time">12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="additional-info">
+                                <h4 data-key="early_checkin">CHECK-IN ANTECIPADO</h4>
+                                <div class="service-info">
+                                    <div class="icon">🕐</div>
+                                    <div>
+                                        <p data-key="early_checkin_title">Early check-in</p>
+                                        <p data-key="early_checkin_desc">Consulte valores e disponibilidade</p>
+                                    </div>
+                                </div>
+                                
+                                <h4 data-key="late_checkout">CHECK-OUT ATRASADO</h4>
+                                <div class="service-info">
+                                    <div class="icon">🕐</div>
+                                    <div>
+                                        <p data-key="late_checkout_title">Late check-out</p>
+                                        <p data-key="late_checkout_desc">Consulte valores e disponibilidade</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="wifi">
+                        <span data-key="wifi">WiFi</span>
+                        <span class="accordion-icon">−</span>
+                    </button>
+                    <div class="accordion-content expanded" id="wifi">
+                        <div class="content-inner">
+                            <div class="wifi-info">
+                                <div class="icon">📶</div>
+                                <div>
+                                    <p data-key="wifi_free">WiFi GRATUITO</p>
+                                    <p data-key="wifi_coverage">Disponível em todas as áreas do hotel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="parking">
+                        <span data-key="parking">Estacionamento</span>
+                        <span class="accordion-icon">−</span>
+                    </button>
+                    <div class="accordion-content expanded" id="parking">
+                        <div class="content-inner">
+                            <h4 data-key="parking_title">HOTEL COM ESTACIONAMENTO</h4>
+                            <div class="parking-info">
+                                <div class="icon">🚗</div>
+                                <div>
+                                    <p data-key="parking_location">Estacionamento privativo localizado atrás do hotel</p>
+                                    <p data-key="parking_security">Área segura e protegida</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Food Section -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="dining">ALIMENTAÇÃO</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="breakfast">
+                        <span data-key="breakfast">Café da manhã</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="breakfast">
+                        <div class="content-inner">
+                            <div class="breakfast-image">
+                                <div class="placeholder-image">🍞 🥐 🧈</div>
+                            </div>
+                            
+                            <div class="schedule-info">
+                                <h4 data-key="breakfast_hours">HORÁRIOS</h4>
+                                <div class="time-grid">
+                                    <div>
+                                        <p data-key="weekdays">Segunda a sexta:</p>
+                                        <p class="time">06:30 - 10:00</p>
+                                    </div>
+                                    <div>
+                                        <p data-key="weekends">Finais de semana:</p>
+                                        <p class="time">06:30 - 10:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="breakfast-highlights">
+                                <h4 data-key="breakfast_highlights">DESTAQUES</h4>
+                                <ul data-key="breakfast_items">
+                                    <li>Buffet com mais de 60 variedades</li>
+                                    <li>Granola, linhaça e chia</li>
+                                    <li>Variedade de bolos, cucas e pães</li>
+                                    <li>Ovos mexidos</li>
+                                    <li>Quatro tipos de frutas frescas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="nearby-restaurants">
+                        <span data-key="nearby_restaurants">Restaurantes próximos</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="nearby-restaurants">
+                        <div class="content-inner">
+                            <div class="restaurant-list">
+                                <div class="restaurant-item">
+                                    <h4>Kemper's Haus</h4>
+                                    <p data-key="walking_5min">5 minutos a pé • Culinária brasileira</p>
+                                </div>
+                                <div class="restaurant-item">
+                                    <h4>Arena Grill</h4>
+                                    <p data-key="arena_hours">Restaurante/Bowling/Pub • 11h-14h e 17h-2h</p>
+                                </div>
+                                <div class="restaurant-item">
+                                    <h4>Restaurante Quick</h4>
+                                    <p data-key="walking_distance">Distância caminhável</p>
+                                </div>
+                                <div class="restaurant-item">
+                                    <h4>Casa Real Restaurante</h4>
+                                    <p data-key="walking_distance">Distância caminhável</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Entertainment -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="entertainment">ENTRETENIMENTO</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="tv-channels">
+                        <span data-key="tv_channels">Lista de canais de TV</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="tv-channels">
+                        <div class="content-inner">
+                            <div class="channel-list">
+                                <div class="channel-item">
+                                    <span class="channel-logo">📺</span>
+                                    <span>Globo</span>
+                                    <span class="channel-number">4.1</span>
+                                </div>
+                                <div class="channel-item">
+                                    <span class="channel-logo">📺</span>
+                                    <span>SBT</span>
+                                    <span class="channel-number">5.1</span>
+                                </div>
+                                <div class="channel-item">
+                                    <span class="channel-logo">📺</span>
+                                    <span>Record</span>
+                                    <span class="channel-number">7.1</span>
+                                </div>
+                                <div class="channel-item">
+                                    <span class="channel-logo">📺</span>
+                                    <span>Band</span>
+                                    <span class="channel-number">9.1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Other Information -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="other_info">OUTRAS INFORMAÇÕES</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="smoking-policy">
+                        <span data-key="smoking_policy">Política de fumantes</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="smoking-policy">
+                        <div class="content-inner">
+                            <div class="policy-info">
+                                <p data-key="no_smoking">Não é permitido fumar nos apartamentos e nas áreas sociais do hotel, com exceção das áreas externas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="social-media">
+                        <span data-key="social_media">Nossas redes sociais</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="social-media">
+                        <div class="content-inner">
+                            <div class="social-links">
+                                <a href="https://instagram.com/maerklihotel" class="social-link">
+                                    <span>📷</span> Instagram: @maerklihotel
+                                </a>
+                                <a href="#" class="social-link">
+                                    <span>📘</span> Facebook: Hotel Maerkli
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="contact">
+                        <span data-key="contact">Contatos</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="contact">
+                        <div class="content-inner">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <span>📞</span>
+                                    <a href="tel:+555533132127">+55 55 3313-2127</a>
+                                </div>
+                                <div class="contact-item">
+                                    <span>🌐</span>
+                                    <a href="https://www.maerkli.com">www.maerkli.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <span>📍</span>
+                                    <span>Avenida Brasil, 1000 - Centro, Santo Ângelo, RS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Leisure Areas -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="leisure_areas">ÁREAS DE LAZER</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="attractions">
+                        <span data-key="attractions">Pontos turísticos próximos</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="attractions">
+                        <div class="content-inner">
+                            <div class="attraction-list">
+                                <div class="attraction-item">
+                                    <h4>Catedral Angelopolitana</h4>
+                                    <p data-key="walking_4min">4 minutos a pé</p>
+                                </div>
+                                <div class="attraction-item">
+                                    <h4>Teatro Municipal Antônio Sepp</h4>
+                                    <p data-key="walking_4min">4 minutos a pé</p>
+                                </div>
+                                <div class="attraction-item">
+                                    <h4>Memorial Coluna Prestes</h4>
+                                    <p data-key="walking_5min">5 minutos a pé</p>
+                                </div>
+                                <div class="attraction-item">
+                                    <h4>Museu Municipal Dr. José Olavo Machado</h4>
+                                    <p data-key="walking_10min">10 minutos a pé</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="business-center">
+                        <span data-key="business_center">Centro de eventos</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="business-center">
+                        <div class="content-inner">
+                            <div class="business-info">
+                                <h4 data-key="meeting_rooms">SALAS DE REUNIÃO</h4>
+                                <div class="room-info">
+                                    <div class="room-item">
+                                        <span>🏢</span>
+                                        <div>
+                                            <p data-key="room_1">Sala 1: Até 30 pessoas</p>
+                                        </div>
+                                    </div>
+                                    <div class="room-item">
+                                        <span>🏢</span>
+                                        <div>
+                                            <p data-key="room_2">Sala 2: Até 80 pessoas</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p data-key="av_equipment">Equipamentos audiovisuais inclusos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pet Policy -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="pet_accommodation">HOSPEDAGEM DE ANIMAIS</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="pet-policy">
+                        <span data-key="pet_policy">Política de pets</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="pet-policy">
+                        <div class="content-inner">
+                            <div class="policy-info">
+                                <div class="icon">🚫</div>
+                                <p data-key="no_pets">Não é permitido animais de estimação</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rate Services -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="rate_services">AVALIE OS SERVIÇOS</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="review">
+                        <span data-key="rate_hotel">Avalie o hotel</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="review">
+                        <div class="content-inner">
+                            <div class="review-info">
+                                <p data-key="tripadvisor_ranking">#1 de 3 hotéis em Santo Ângelo</p>
+                                <p data-key="rating">4/5 estrelas • 215 avaliações</p>
+                                <a href="#" class="review-link" data-key="leave_review">Deixe sua avaliação</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>🔒 <span data-key="private">Privado</span> • <strong>www.maerkli.com</strong></p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

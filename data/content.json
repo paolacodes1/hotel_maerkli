@@ -1,0 +1,229 @@
+{
+  "pt": {
+    "hotel_name": "Hotel Maerkli",
+    "location": "CENTRO",
+    "welcome": "Seja muito bem-vindo!",
+    "private": "Privado",
+    
+    "general_info": "INFORMAÇÕES GERAIS",
+    "checkin": "Check-in",
+    "checkin_from": "Check-in a partir de:",
+    "checkout_until": "Check-out até:",
+    "early_checkin": "CHECK-IN ANTECIPADO",
+    "early_checkin_title": "Early check-in",
+    "early_checkin_desc": "Consulte valores e disponibilidade",
+    "late_checkout": "CHECK-OUT ATRASADO", 
+    "late_checkout_title": "Late check-out",
+    "late_checkout_desc": "Consulte valores e disponibilidade",
+    
+    "wifi": "WiFi",
+    "wifi_free": "WiFi GRATUITO",
+    "wifi_coverage": "Disponível em todas as áreas do hotel",
+    
+    "parking": "Estacionamento",
+    "parking_title": "HOTEL COM ESTACIONAMENTO",
+    "parking_location": "Estacionamento privativo localizado atrás do hotel",
+    "parking_security": "Área segura e protegida",
+    
+    "dining": "ALIMENTAÇÃO",
+    "breakfast": "Café da manhã",
+    "breakfast_hours": "HORÁRIOS",
+    "weekdays": "Segunda a sexta:",
+    "weekends": "Finais de semana:",
+    "breakfast_highlights": "DESTAQUES",
+    "breakfast_items": [
+      "Buffet com mais de 60 variedades",
+      "Granola, linhaça e chia", 
+      "Variedade de bolos, cucas e pães",
+      "Ovos mexidos",
+      "Quatro tipos de frutas frescas"
+    ],
+    
+    "nearby_restaurants": "Restaurantes próximos",
+    "walking_5min": "5 minutos a pé",
+    "walking_4min": "4 minutos a pé", 
+    "walking_10min": "10 minutos a pé",
+    "walking_distance": "Distância caminhável",
+    "arena_hours": "Restaurante/Bowling/Pub • 11h-14h e 17h-2h",
+    
+    "entertainment": "ENTRETENIMENTO",
+    "tv_channels": "Lista de canais de TV",
+    
+    "other_info": "OUTRAS INFORMAÇÕES",
+    "smoking_policy": "Política de fumantes",
+    "no_smoking": "Não é permitido fumar nos apartamentos e nas áreas sociais do hotel, com exceção das áreas externas.",
+    
+    "social_media": "Nossas redes sociais",
+    "contact": "Contatos",
+    
+    "leisure_areas": "ÁREAS DE LAZER",
+    "attractions": "Pontos turísticos próximos",
+    "business_center": "Centro de eventos",
+    "meeting_rooms": "SALAS DE REUNIÃO",
+    "room_1": "Sala 1: Até 30 pessoas",
+    "room_2": "Sala 2: Até 80 pessoas", 
+    "av_equipment": "Equipamentos audiovisuais inclusos",
+    
+    "pet_accommodation": "HOSPEDAGEM DE ANIMAIS",
+    "pet_policy": "Política de pets",
+    "no_pets": "Não é permitido animais de estimação",
+    
+    "rate_services": "AVALIE OS SERVIÇOS",
+    "rate_hotel": "Avalie o hotel",
+    "tripadvisor_ranking": "#1 de 3 hotéis em Santo Ângelo",
+    "rating": "4/5 estrelas • 215 avaliações",
+    "leave_review": "Deixe sua avaliação"
+  },
+  
+  "en": {
+    "hotel_name": "Hotel Maerkli",
+    "location": "DOWNTOWN",
+    "welcome": "Welcome!",
+    "private": "Private",
+    
+    "general_info": "GENERAL INFORMATION",
+    "checkin": "Check-in",
+    "checkin_from": "Check-in from:",
+    "checkout_until": "Check-out until:",
+    "early_checkin": "EARLY CHECK-IN",
+    "early_checkin_title": "Early check-in",
+    "early_checkin_desc": "Please inquire about rates and availability",
+    "late_checkout": "LATE CHECK-OUT",
+    "late_checkout_title": "Late check-out", 
+    "late_checkout_desc": "Please inquire about rates and availability",
+    
+    "wifi": "WiFi",
+    "wifi_free": "FREE WiFi",
+    "wifi_coverage": "Available throughout the entire hotel",
+    
+    "parking": "Parking",
+    "parking_title": "HOTEL WITH PARKING",
+    "parking_location": "Private parking located behind the hotel",
+    "parking_security": "Secure and protected area",
+    
+    "dining": "DINING",
+    "breakfast": "Breakfast",
+    "breakfast_hours": "HOURS",
+    "weekdays": "Monday to Friday:",
+    "weekends": "Weekends:",
+    "breakfast_highlights": "HIGHLIGHTS",
+    "breakfast_items": [
+      "Buffet with over 60 varieties",
+      "Granola, flaxseed and chia",
+      "Variety of cakes, sweet breads and breads", 
+      "Scrambled eggs",
+      "Four types of fresh fruits"
+    ],
+    
+    "nearby_restaurants": "Nearby restaurants",
+    "walking_5min": "5-minute walk",
+    "walking_4min": "4-minute walk",
+    "walking_10min": "10-minute walk", 
+    "walking_distance": "Walking distance",
+    "arena_hours": "Restaurant/Bowling/Pub • 11am-2pm and 5pm-2am",
+    
+    "entertainment": "ENTERTAINMENT", 
+    "tv_channels": "TV channel list",
+    
+    "other_info": "OTHER INFORMATION",
+    "smoking_policy": "Smoking policy",
+    "no_smoking": "Smoking is not allowed in rooms and social areas of the hotel, except in outdoor areas.",
+    
+    "social_media": "Our social media",
+    "contact": "Contact",
+    
+    "leisure_areas": "LEISURE AREAS",
+    "attractions": "Nearby attractions",
+    "business_center": "Event center",
+    "meeting_rooms": "MEETING ROOMS",
+    "room_1": "Room 1: Up to 30 people",
+    "room_2": "Room 2: Up to 80 people",
+    "av_equipment": "Audiovisual equipment included",
+    
+    "pet_accommodation": "PET ACCOMMODATION",
+    "pet_policy": "Pet policy", 
+    "no_pets": "Pets are not allowed",
+    
+    "rate_services": "RATE OUR SERVICES",
+    "rate_hotel": "Rate the hotel",
+    "tripadvisor_ranking": "#1 of 3 hotels in Santo Ângelo",
+    "rating": "4/5 stars • 215 reviews",
+    "leave_review": "Leave your review"
+  },
+  
+  "es": {
+    "hotel_name": "Hotel Maerkli",
+    "location": "CENTRO",
+    "welcome": "¡Bienvenido!",
+    "private": "Privado",
+    
+    "general_info": "INFORMACIÓN GENERAL",
+    "checkin": "Check-in",
+    "checkin_from": "Check-in desde:",
+    "checkout_until": "Check-out hasta:",
+    "early_checkin": "CHECK-IN TEMPRANO",
+    "early_checkin_title": "Check-in temprano",
+    "early_checkin_desc": "Consulte precios y disponibilidad",
+    "late_checkout": "CHECK-OUT TARDÍO",
+    "late_checkout_title": "Check-out tardío",
+    "late_checkout_desc": "Consulte precios y disponibilidad",
+    
+    "wifi": "WiFi", 
+    "wifi_free": "WiFi GRATUITO",
+    "wifi_coverage": "Disponible en todas las áreas del hotel",
+    
+    "parking": "Estacionamiento",
+    "parking_title": "HOTEL CON ESTACIONAMIENTO",
+    "parking_location": "Estacionamiento privado ubicado detrás del hotel",
+    "parking_security": "Área segura y protegida",
+    
+    "dining": "ALIMENTACIÓN",
+    "breakfast": "Desayuno",
+    "breakfast_hours": "HORARIOS", 
+    "weekdays": "Lunes a viernes:",
+    "weekends": "Fines de semana:",
+    "breakfast_highlights": "DESTACADOS",
+    "breakfast_items": [
+      "Buffet con más de 60 variedades",
+      "Granola, linaza y chía",
+      "Variedad de tortas, panes dulces y panes",
+      "Huevos revueltos", 
+      "Cuatro tipos de frutas frescas"
+    ],
+    
+    "nearby_restaurants": "Restaurantes cercanos",
+    "walking_5min": "5 minutos a pie",
+    "walking_4min": "4 minutos a pie",
+    "walking_10min": "10 minutos a pie",
+    "walking_distance": "Distancia caminable",
+    "arena_hours": "Restaurante/Bowling/Pub • 11h-14h y 17h-2h",
+    
+    "entertainment": "ENTRETENIMIENTO",
+    "tv_channels": "Lista de canales de TV",
+    
+    "other_info": "OTRA INFORMACIÓN",
+    "smoking_policy": "Política de fumadores",
+    "no_smoking": "No se permite fumar en las habitaciones y áreas sociales del hotel, excepto en áreas externas.",
+    
+    "social_media": "Nuestras redes sociales",
+    "contact": "Contacto",
+    
+    "leisure_areas": "ÁREAS DE RECREACIÓN",
+    "attractions": "Atracciones cercanas",
+    "business_center": "Centro de eventos",
+    "meeting_rooms": "SALAS DE REUNIÓN",
+    "room_1": "Sala 1: Hasta 30 personas",
+    "room_2": "Sala 2: Hasta 80 personas",
+    "av_equipment": "Equipos audiovisuales incluidos",
+    
+    "pet_accommodation": "ALOJAMIENTO DE MASCOTAS",
+    "pet_policy": "Política de mascotas",
+    "no_pets": "No se permiten mascotas",
+    
+    "rate_services": "CALIFIQUE LOS SERVICIOS", 
+    "rate_hotel": "Califique el hotel",
+    "tripadvisor_ranking": "#1 de 3 hoteles en Santo Ângelo",
+    "rating": "4/5 estrellas • 215 reseñas",
+    "leave_review": "Deje su reseña"
+  }
+}
