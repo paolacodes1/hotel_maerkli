@@ -19,9 +19,11 @@
     "wifi": "WiFi",
     "wifi_free": "WiFi GRATUITO",
     "wifi_coverage": "Disponível em todas as áreas do hotel",
+    "wifi_network": "Rede: Numero do Apartamento",
+    "wifi_password": "Senha: 33202127",
     
     "parking": "Estacionamento",
-    "parking_description": "Estacionamento seguro e protegido, localizado atrás do hotel.",
+    "parking_description": "GRATUITO - Estacionamento seguro e protegido, localizado atrás do hotel.",
     
     "dining": "ALIMENTAÇÃO",
     "breakfast": "Café da manhã",
@@ -107,9 +109,11 @@
     "wifi": "WiFi",
     "wifi_free": "FREE WiFi",
     "wifi_coverage": "Available throughout the entire hotel",
+    "wifi_network": "Network: Room Number",
+    "wifi_password": "Password: 33202127",
     
     "parking": "Parking",
-    "parking_description": "Safe and protected parking, located behind the hotel.",
+    "parking_description": "FREE - Safe and protected parking, located behind the hotel.",
     
     "dining": "DINING",
     "breakfast": "Breakfast",
@@ -195,9 +199,11 @@
     "wifi": "WiFi", 
     "wifi_free": "WiFi GRATUITO",
     "wifi_coverage": "Disponible en todas las áreas del hotel",
+    "wifi_network": "Red: Número de Habitación",
+    "wifi_password": "Contraseña: 33202127",
     
     "parking": "Estacionamiento",
-    "parking_description": "Estacionamiento seguro y protegido, ubicado detrás del hotel.",
+    "parking_description": "GRATUITO - Estacionamiento seguro y protegido, ubicado detrás del hotel.",
     
     "dining": "ALIMENTACIÓN",
     "breakfast": "Desayuno",
