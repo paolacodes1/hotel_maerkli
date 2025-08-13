@@ -82,7 +82,7 @@ body {
     border-radius: 20px;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    justify-content: center;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -359,15 +359,7 @@ body {
     color: #194284;
 }
 
-.location-badge svg,
-.location-badge .map-pin-icon {
-    color: #fff !important;
-    stroke: #fff !important;
-    fill: none !important;
-    display: block !important;
-    width: 16px !important;
-    height: 16px !important;
-}
+/* Removed - no longer needed since location badge has no SVG */
 
 .maps-icon {
     display: flex;
