@@ -90,10 +90,7 @@ body {
     white-space: nowrap;
 }
 
-.location-badge svg {
-    color: #fff !important;
-    stroke: #fff !important;
-}
+/* Removed - consolidated into specific rule below */
 
 .welcome-message {
     font-size: 18px;
@@ -362,9 +359,14 @@ body {
     color: #194284;
 }
 
+.location-badge svg,
 .location-badge .map-pin-icon {
     color: #fff !important;
     stroke: #fff !important;
+    fill: none !important;
+    display: block !important;
+    width: 16px !important;
+    height: 16px !important;
 }
 
 .maps-icon {
