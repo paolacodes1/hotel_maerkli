@@ -356,10 +356,14 @@ body {
 .clock-icon,
 .wifi-icon,
 .car-icon,
-.map-pin-icon,
 .map-pin-small,
 .tv-icon {
     color: #194284;
+}
+
+.location-badge .map-pin-icon {
+    color: #fff !important;
+    stroke: #fff !important;
 }
 
 .maps-icon {
