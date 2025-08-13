@@ -684,11 +684,8 @@ body {
 
 .laundry-info p {
     margin-bottom: 20px;
-    color: #666;
-    font-size: 14px;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
+    color: #333;
+    font-size: 15px;
 }
 
 .laundry-prices {
@@ -720,11 +717,14 @@ body {
     border-radius: 8px;
     border: 1px solid #eee;
     font-size: 14px;
+    gap: 12px;
 }
 
 .price-item span:first-child {
     color: #333;
     font-weight: 500;
+    flex: 1;
+    margin-right: 8px;
 }
 
 .price-item span:last-child {
@@ -732,6 +732,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .price-item:hover {
