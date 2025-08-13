@@ -677,11 +677,75 @@ body {
     }
 }
 
+/* Laundry Section Styles */
+.laundry-info {
+    padding: 0;
+}
+
+.laundry-info p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.laundry-prices {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.price-section h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #194284;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.price-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    font-size: 14px;
+}
+
+.price-item span:first-child {
+    color: #333;
+    font-weight: 500;
+}
+
+.price-item span:last-child {
+    color: #194284;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.price-item:hover {
+    background-color: #f8f9fa;
+    border-color: #194284;
+    transition: all 0.2s ease;
+}
+
 @media (min-width: 481px) {
     .app-container {
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
         margin: 20px auto;
         border-radius: 12px;
         overflow: hidden;
+    }
+    
+    .price-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
     }
 }
