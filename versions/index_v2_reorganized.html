@@ -402,61 +402,97 @@
                 <h2 class="section-title" data-key="entertainment">ENTRETENIMENTO</h2>
                 
                 <div class="accordion-item">
-                    <button class="accordion-header" data-section="attractions">
-                        <span data-key="attractions">Pontos turísticos próximos</span>
+                    <button class="accordion-header" data-section="breakfast">
+                        <span data-key="breakfast">Café da manhã</span>
                         <span class="accordion-icon">+</span>
                     </button>
-                    <div class="accordion-content" id="attractions">
+                    <div class="accordion-content" id="breakfast">
                         <div class="content-inner">
-                            <div class="attraction-list">
-                                <a href="https://maps.app.goo.gl/W6i7zVjhTwrsZRuU8" target="_blank" class="attraction-item">
-                                    <div class="restaurant-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
-                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
-                                            <circle cx="12" cy="10" r="3"/>
+                            <!-- Breakfast Photo -->
+                            <div class="breakfast-photo">
+                                <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=500&h=200&fit=crop&crop=center" alt="Café da manhã" />
+                            </div>
+                            
+                            <!-- Weekdays Schedule -->
+                            <div class="schedule-section">
+                                <h4 data-key="weekdays">SEGUNDA A SEXTA</h4>
+                                <div class="schedule-times">
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p data-key="start_time">Início:</p>
+                                            <p class="time">06:30</p>
+                                        </div>
+                                    </div>
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p data-key="end_time">Encerramento:</p>
+                                            <p class="time">9:30</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Weekends Schedule -->
+                            <div class="schedule-section">
+                                <h4 data-key="weekends">FINAIS DE SEMANA E FERIADO</h4>
+                                <div class="schedule-times">
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p data-key="start_time">Início:</p>
+                                            <p class="time">7:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="time-item">
+                                        <div class="time-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="clock-icon">
+                                                <path d="M12 6v6l4 2"/>
+                                                <circle cx="12" cy="12" r="10"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p data-key="end_time">Encerramento:</p>
+                                            <p class="time">9:30</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Optional Services -->
+                            <div class="optional-services">
+                                <h4 data-key="optional_services">OPCIONAIS</h4>
+                                
+                                <div class="service-item">
+                                    <div class="service-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="coffee-icon">
+                                            <path d="M10 2v2"/>
+                                            <path d="M14 2v2"/>
+                                            <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/>
+                                            <path d="M6 2v2"/>
                                         </svg>
                                     </div>
-                                    <div>
-                                        <h4>Catedral Angelopolitana</h4>
-                                        <p data-key="walking_9min">9 minutos a pé</p>
+                                    <div class="service-details">
+                                        <p data-key="non_guest_service">Café da manhã para não hóspede</p>
+                                        <p class="price" data-key="non_guest_price">45,00</p>
                                     </div>
-                                </a>
-                                <a href="https://maps.app.goo.gl/hYgqwnYSC7zA3Nco6" target="_blank" class="attraction-item">
-                                    <div class="restaurant-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
-                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
-                                            <circle cx="12" cy="10" r="3"/>
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h4>Praça Pinheiro Machado</h4>
-                                        <p data-key="walking_10min">10 minutos a pé</p>
-                                    </div>
-                                </a>
-                                <a href="https://maps.app.goo.gl/1yKYJzEkqgGQuoFq8" target="_blank" class="attraction-item">
-                                    <div class="restaurant-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
-                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
-                                            <circle cx="12" cy="10" r="3"/>
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h4>Museu Histórico das Missões</h4>
-                                        <p data-key="walking_10min">10 minutos a pé</p>
-                                    </div>
-                                </a>
-                                <a href="https://maps.app.goo.gl/bTUy4uyGS5sStnfw9" target="_blank" class="attraction-item">
-                                    <div class="restaurant-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
-                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
-                                            <circle cx="12" cy="10" r="3"/>
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h4>Museu Ferroviário de Santo Ângelo</h4>
-                                        <p data-key="walking_5min">5 minutos a pé</p>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -548,9 +584,216 @@
                 </div>
             </section>
 
+            <!-- Entertainment -->
+            <section class="info-section">
+                <h2 class="section-title" data-key="entertainment">ENTRETENIMENTO</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="attractions">
+                        <span data-key="attractions">Pontos turísticos próximos</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="attractions">
+                        <div class="content-inner">
+                            <div class="attraction-list">
+                                <a href="https://maps.app.goo.gl/W6i7zVjhTwrsZRuU8" target="_blank" class="attraction-item">
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Catedral Angelopolitana</h4>
+                                        <p data-key="walking_9min">9 minutos a pé</p>
+                                    </div>
+                                </a>
+                                <a href="https://maps.app.goo.gl/hYgqwnYSC7zA3Nco6" target="_blank" class="attraction-item">
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Praça Pinheiro Machado</h4>
+                                        <p data-key="walking_10min">10 minutos a pé</p>
+                                    </div>
+                                </a>
+                                <a href="https://maps.app.goo.gl/1yKYJzEkqgGQuoFq8" target="_blank" class="attraction-item">
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Museu Histórico das Missões</h4>
+                                        <p data-key="walking_10min">10 minutos a pé</p>
+                                    </div>
+                                </a>
+                                <a href="https://maps.app.goo.gl/bTUy4uyGS5sStnfw9" target="_blank" class="attraction-item">
+                                    <div class="restaurant-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-pin-small">
+                                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Museu Ferroviário de Santo Ângelo</h4>
+                                        <p data-key="walking_5min">5 minutos a pé</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Other Information -->
             <section class="info-section">
                 <h2 class="section-title" data-key="other_info">OUTRAS INFORMAÇÕES</h2>
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-section="laundry">
+                        <span data-key="laundry">Lavanderia</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content" id="laundry">
+                        <div class="content-inner">
+                            <div class="laundry-info">
+                                <p data-key="laundry_description">Oferecemos serviço de lavanderia. Para usar, coloque as roupas no saco disponibilizado no maleiro e leve-o até a recepção.</p>
+                                <p>Para coletas até às 10h a entrega ocorre no mesmo dia. Caso contrário será entregue na manhã do dia seguinte.</p>
+                                
+                                <div class="laundry-prices">
+                                    <div class="price-section">
+                                        <h4 data-key="clothing">ROUPAS</h4>
+                                        <div class="price-grid">
+                                            <div class="price-item">
+                                                <span>Abrigo completo</span>
+                                                <span>R$ 40,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Bermuda</span>
+                                                <span>R$ 15,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Blusa</span>
+                                                <span>R$ 15,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Blusa infantil</span>
+                                                <span>R$ 8,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Blusão</span>
+                                                <span>R$ 15,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Calça</span>
+                                                <span>R$ 15,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Calça infantil</span>
+                                                <span>R$ 10,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Camisa</span>
+                                                <span>R$ 45,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Camisa polo</span>
+                                                <span>R$ 13,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Camiseta</span>
+                                                <span>R$ 13,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Camisola</span>
+                                                <span>R$ 15,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Casaco</span>
+                                                <span>R$ 35,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Casaco infantil</span>
+                                                <span>R$ 16,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Costume</span>
+                                                <span>R$ 49,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Jaqueta</span>
+                                                <span>R$ 32,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Paletó</span>
+                                                <span>R$ 70,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Pijama completo</span>
+                                                <span>R$ 20,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Saia</span>
+                                                <span>R$ 13,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Suéter</span>
+                                                <span>R$ 15,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Vestido</span>
+                                                <span>R$ 35,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Vestido infantil</span>
+                                                <span>R$ 10,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="price-section">
+                                        <h4 data-key="accessories">ACESSÓRIOS</h4>
+                                        <div class="price-grid">
+                                            <div class="price-item">
+                                                <span>Lenço</span>
+                                                <span>R$ 5,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Meia infantil</span>
+                                                <span>R$ 2,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Meias</span>
+                                                <span>R$ 5,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Roupa íntima</span>
+                                                <span>R$ 7,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Tênis</span>
+                                                <span>R$ 30,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Toalha de rosto</span>
+                                                <span>R$ 9,00</span>
+                                            </div>
+                                            <div class="price-item">
+                                                <span>Toalha de banho</span>
+                                                <span>R$ 12,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="accordion-item">
                     <button class="accordion-header" data-section="social-media">
@@ -662,7 +905,9 @@
                         </div>
                     </div>
                 </div>
+
             </section>
+
 
             <!-- Rate Services -->
             <section class="info-section">
