@@ -1,5 +1,7 @@
 # Hotel Maerkli Information App
 
+🔗 **[View Live Project](https://paolacodes1.github.io/hotel_maerkli/)**
+
 A mobile-first, multilingual web application providing comprehensive guest information for Hotel Maerkli in Santo Ângelo, RS, Brazil.
 
 ## Features
@@ -80,13 +82,6 @@ php -S localhost:8000
 - Samsung Internet 10+
 - Firefox Mobile 68+
 
-## Hotel Maerkli Details
-
-- **Location**: Avenida Brasil, 1000 - Centro, Santo Ângelo, RS
-- **Phone**: +55 55 3313-2127
-- **Website**: https://www.maerkli.com
-- **Classification**: 2-star hotel with 62 rooms
-- **TripAdvisor**: #1 of 3 hotels in Santo Ângelo
 
 ## License
 
