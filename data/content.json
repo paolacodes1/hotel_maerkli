@@ -66,7 +66,7 @@
     
     "other_info": "OUTRAS INFORMAÇÕES",
     "laundry": "Lavanderia",
-    "laundry_description": "Oferecemos serviço de lavanderia. Para usar, coloque as roupas no saco disponibilizado no maleiro e leve-o até a recepção.",
+    "laundry_description": "Oferecemos serviço de lavanderia terceirizado. Para usar, coloque as roupas no saco disponibilizado no maleiro e leve-o até a recepção.",
     "laundry_schedule": "Para coletas até às 10h a entrega ocorre no mesmo dia. Caso contrário será entregue na manhã do dia seguinte.",
     "clothing": "ROUPAS",
     "accessories": "ACESSÓRIOS",
@@ -193,7 +193,7 @@
     
     "other_info": "OTHER INFORMATION",
     "laundry": "Laundry",
-    "laundry_description": "We offer laundry service. To use, place clothes in the bag provided in the luggage storage and take it to reception.",
+    "laundry_description": "We offer outsourced laundry service. To use, place clothes in the bag provided in the luggage storage and take it to reception.",
     "laundry_schedule": "For pickups until 10am, delivery occurs the same day. Otherwise it will be delivered the next morning.",
     "clothing": "CLOTHING",
     "accessories": "ACCESSORIES",
@@ -320,7 +320,7 @@
     
     "other_info": "OTRA INFORMACIÓN",
     "laundry": "Lavandería",
-    "laundry_description": "Ofrecemos servicio de lavandería. Para usar, coloque la ropa en la bolsa proporcionada en el depósito de equipaje y llévela a recepción.",
+    "laundry_description": "Ofrecemos servicio de lavandería tercerizado. Para usar, coloque la ropa en la bolsa proporcionada en el depósito de equipaje y llévela a recepción.",
     "laundry_schedule": "Para recolecciones hasta las 10h la entrega ocurre el mismo día. De lo contrario será entregado en la mañana del día siguiente.",
     "clothing": "ROPA",
     "accessories": "ACCESORIOS",
