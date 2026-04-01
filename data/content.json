@@ -121,8 +121,7 @@
     
     "rate_services": "AVALIE OS SERVIÇOS",
     "rate_hotel": "Avalie o hotel",
-    "tripadvisor_ranking": "#1 de 3 hotéis em Santo Ângelo",
-    "rating": "4/5 estrelas • 215 avaliações",
+    "rating": "4.2/5 estrelas • +1000 avaliações no Google",
     "leave_review": "Deixe sua avaliação"
   },
   
@@ -248,8 +247,7 @@
     
     "rate_services": "RATE OUR SERVICES",
     "rate_hotel": "Rate the hotel",
-    "tripadvisor_ranking": "#1 of 3 hotels in Santo Ângelo",
-    "rating": "4/5 stars • 215 reviews",
+    "rating": "4.2/5 stars • 1000+ reviews on Google",
     "leave_review": "Leave your review"
   },
   
@@ -375,8 +373,7 @@
     
     "rate_services": "CALIFIQUE LOS SERVICIOS", 
     "rate_hotel": "Califique el hotel",
-    "tripadvisor_ranking": "#1 de 3 hoteles en Santo Ângelo",
-    "rating": "4/5 estrellas • 215 reseñas",
+    "rating": "4.2/5 estrellas • +1000 reseñas en Google",
     "leave_review": "Deje su reseña"
   }
 }
